@@ -191,7 +191,10 @@ color:#fff;
 .first-footer-content,.second-footer-content{
     margin-top: 40px;
 }
-
+.footer-brand-logo{
+    width: 100%;
+    display: block;
+}
 .footer-logo{
 margin-top:10px;
 }
@@ -447,17 +450,31 @@ height: 85px;
     .grow-img{
         margin-top: 5%;
     }
+    .footer-brand-logo{
+        margin-top: 10%;
+        width: 100px;
+    }
+.footer-paragraph{
+     margin-top: 9% !important;
+     /* margin-left: 10%; */
+    }
 .newsletter-paragraph{
     margin-top: 15%;
+    
 }
 .text-input{
     width: 60%;
 }
 .suscribe-button{
-    margin-top:2%;
+    margin-top:3%;
  margin-left: 10%;
  font-size: 1rem;
-
+ }
+ .bg-overlay{
+     height: 81px;
+ }
+ .fab{
+     font-size: 2rem;
  }
 }
 @media screen and (max-width:767px){
@@ -541,12 +558,13 @@ font-size: 1.6rem;
     margin-left: -15%;
     display:flex;
 }
+.footer-brand-logo{
+    width: 60%;
+}
 .second-footer-content{
 order:-1;
 }
-.first-footer-content{
-    margin-top: 15%;
-    margin-left: 15%;
+
 }
 .newsletter-paragraph{
     margin-top: 5%;
@@ -557,6 +575,10 @@ order:-1;
     border: none;
 
 }
+.first-footer-content{
+    margin-top: 20%;
+    margin-left: 15%;
+}
 .suscribe-button{
     margin-right: 5%;
     margin-top: 17%;
@@ -564,6 +586,14 @@ order:-1;
     padding:0px 40px;
     font-size: 1.6rem;
 }
+.footer-logo-content{
+width: 40%;
+}
+.footer-brand-logo{
+ width: 100%;
+display: block;   
+}
+
 
 @media screen and (max-width:600px){
     .brand-logo{
@@ -596,7 +626,16 @@ order:-1;
         margin-top: 20%;
         height: 80px;
     }
-
+    .footer-paragraph{
+        margin-top:-10%;
+    }
+    .first-footer-content{
+        margin-top: 20%;
+        /* width: 200px; */
+    }
+    .fab{
+        font-size: 2rem;
+    }
 }
 @media screen and (max-width:425px){
     .brand-logo{
