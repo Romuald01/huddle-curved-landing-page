@@ -1,0 +1,752 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Poppins","Open sans",sans-serif;
+}
+.header{
+    padding: 30px;
+}
+html{
+    font-size: 62.5%;
+}
+.try-button{
+  border: 1px solid hsl(322,100%,66%);
+  padding: 10px 20px;
+  border-radius: 25px;
+margin-top:-3%;
+
+}
+.try-text{
+    color:hsl(322,100%,66%) ;
+    border:none;
+    font-size:1.5rem;
+    text-decoration: none;
+}
+.try-text:hover{
+    text-decoration: none;
+    color: hsl(322,100%,66%);
+
+}   
+.brand-logo{
+    width: 20rem;
+}
+.second-section{
+margin-top: 8%;
+}
+.build-container{
+    width: 100%;
+  color: hsl(192, 100%, 9%);
+    font-weight:700;
+    text-align: center;
+}
+.build-heading{
+    width: 100%; 
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+.build-paragraph{
+width: 50%;
+margin: auto;
+font-size: 1.6rem;
+font-weight:500;
+padding-top:1.5%;
+padding-bottom:1.5%;
+}
+.build-container .btn{
+    color: hsl(207, 100%, 98%);
+    border-radius: 25px;
+    background-color: hsl(322, 100%, 66%);
+    border:none;
+    padding: 15px 35px;
+    font-size: 1.5rem;
+    
+}
+.get-started{
+    color: #fff;
+}
+.screen-mockups{
+    margin-top: 7%;
+    width:100%;
+    text-align: center;
+   }
+.screen-mockups-img{
+    width: 90%;
+    overflow:hidden;
+    display: block;
+    margin: auto;
+}
+/* styling of third growing community start here */
+.people{
+    margin-left:-25%;
+}
+.communities{
+    margin-left:-20%;
+
+}
+.community-population{
+color: hsl(192, 100%, 9%);
+font-size:6rem;
+font-weight: 700;
+}
+.community-text{
+   color:  hsla(192, 100%, 9%,0.4);
+   font-weight:500;
+   font-size: 1.5rem;
+}
+.community-status{
+    font-size: 100%;
+}
+/* imported svgs images */
+.section-top-desktop-1{
+    background-image: url('../images/bg-section-top-desktop-1.svg');
+    }
+    .section-top-desktop-1,.section-bottom-desktop-1{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 140px;
+    }
+    .section-bottom-desktop-1{
+        background-image: url('../images/bg-section-bottom-desktop-1.svg');
+    }
+    /* imported svgs images */
+.growing-content-div{
+    background-color:hsl(207, 100%, 98%); 
+ }
+.section-top-desktop{
+    width: 100%;
+}
+.growing-text-contents{
+   margin-top: 8%;
+}
+.grow-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    }
+.grow-paragraph{
+    width: 100%;
+    padding-right:50px;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.flow-conversation{
+   padding-left:5%;
+}
+.flow-conversation-paragraph{
+    width:100%;
+    padding-right:50px;
+}
+.growing-img{
+width: 480px;
+}
+.your-user{
+   width: 75%;
+}
+/* styling of third growing community ends here */
+.seventh-section{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.seventh-section .build-heading{
+ font-size: 2.5rem;   
+}
+/* styling of the footer start here */
+.footer-container{
+ background-color: hsl(192, 100%, 9%);
+ height: 400px;
+}
+.footer-top-desktop{
+    width: 100%;
+    padding-left:0;
+    padding-right:0;
+
+}
+.footer-top-desktop-img{
+    width:90%;
+}
+.footer-content{
+    background-color: hsl(192, 100%, 9%);
+    color:hsl(207, 100%, 98%);
+}
+.first-footer-content,.second-footer-content{
+font-size: 1.5rem;
+color:#fff;
+}
+.section-top-desktop-2{
+    background-image: url('../images/bg-section-top-desktop-2.svg');
+}
+.section-top-desktop-2,.section-bottom-desktop-2{
+    height: 150px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.section-bottom-desktop-2{
+    background-image: url('../images/bg-section-bottom-desktop-2.svg');
+
+}
+.first-footer-content,.second-footer-content{
+    margin-top: 40px;
+}
+
+.footer-logo{
+margin-top:10px;
+}
+.footer-paragraph{
+    width:75%;
+    padding-right:60px;
+}
+.contact-content{
+color: #fff;
+padding: 15px;
+margin-top: -20px;
+}
+
+.contact-img{
+    font-size: 10rem;
+    height: 15px;
+}
+.contact-content:hover{
+text-decoration: none;
+}
+.social-media-icon{
+background-color: hsl(207, 100%, 98%);
+color: hsl(192,100%, 9%);
+border-radius:5px;
+padding: 5px;
+margin: 5px;
+}
+.icon-twitter{    
+background-color:hsl(192, 100%, 9%);
+color: #fff;
+
+}
+.fab{
+    font-size:3rem;
+}
+.fab:hover{
+    background-color: turquoise;
+
+}
+.second-footer-content{
+    color: #fff;
+ display: flex;
+    justify-content: flex-end;
+}
+.second-content{
+ width:85%;
+}
+.newsletter-heading{
+font-size: 2rem;
+text-transform: uppercase;
+}
+.newsletter-paragraph{
+width:85%;
+}
+.text-input{
+    height: 40px;
+    width: 75%;
+    padding: 10px 20px;
+}
+.text-input:focus{
+outline: none;
+}
+.text-input,.suscribe-button{
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: inherit;
+}
+.suscribe-button{
+    border: none;
+    background-color: hsl(322,100%,66%);
+    padding: 6px 20px;
+    color:#fff;
+    font-size: 62.5%;
+    height: 40px;
+    position: absolute;
+    right:-2%;
+    top: 39.5%;
+    font-size: 1.4rem;
+}
+.suscribe-button:focus{
+    outline: none;
+}
+
+.bg-overlay{
+    height: 155px;
+    width: 100%;
+    background-image: url("../images/bg-footer-top-desktop.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.growing-img{
+    width: 400px;
+}
+/* styling of the footer ends here */
+/* =====================MEDIA QUERY START HERE======================== */
+@media screen and (max-width:1024px){
+    .brand-logo{
+        margin-left: -3%;
+    }
+    .build-heading{
+        font-size: 3.2rem;
+    }
+    .build-paragraph{
+    width:80%;
+    padding-left:50px;
+    font-size: 2rem;
+    }
+    .build-container .btn{
+        font-size: 1.8rem;
+    }
+    .screen-mockups-img{
+width: 70%;
+    }
+    .section-top-desktop-1{
+width: 100%;
+height: 103px;
+    }
+    .grow-paragraph{
+    width: 100%;
+    font-size: 1.4rem;
+padding-right: 50px;
+    }
+    .second-community-fans .build-heading{
+        width: 100%;
+        margin:auto;
+        font-size: 2.2rem
+    }
+    .second-community-fans .btn{
+        padding: 10px 55px;
+        font-size: 1.5rem;
+    }
+    .text-input{
+        width: 70%;
+    }
+    .suscribe-button{
+        position: absolute;
+        top: 53%;
+        font-size: 1.5rem;
+    }
+    .bg-overlay{
+        height: 110px;
+    }
+    .newsletter-paragraph{
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width:990px){
+  .bg-overlay{
+      height:105px;
+  }
+  .mt-5,.my-5{
+      margin-top:1rem !important;
+
+}
+.suscribe-button{
+    margin-right: -10%;
+    margin-top: -3%;
+}
+}
+@media screen and (max-width:900px){
+
+.build-heading{
+    width: 100%;
+    font-size: 2.6rem;
+}
+.build-paragraph{
+width: 85%;
+font-size: 1.5rem;
+padding-right: 40px;
+}
+.seventh-section .build-heading{
+    font-size: 2rem;
+    width: 100%;
+}
+.build-container .btn{
+padding: 5px 15px;
+font-size: 1.5rem;
+}
+.screen-mockups-img{
+width: 50rem;
+}
+.grow-paragraph{
+width: 100%;
+font-size: 1.3rem;
+}
+.growing-img{
+    width: 80%;
+}
+.grow-paragraph{
+width: 100%;
+font-size: 1.3rem;
+padding-right:50px;
+
+}
+.footer-paragraph{
+    width: 100%;
+}
+.newsletter-paragraph{
+    width: 100%;
+
+}
+.section-top-desktop{
+height: 87px;
+}
+.section-top-desktop-2{
+height: 125px;
+width: 100%;
+margin-top: 10%;
+}
+.text-input{
+    width: 60%;
+}
+.suscribe-button{
+    font-size: 1.2rem;
+    margin-top: -2%;
+}
+.suscribe-button{
+    margin-right:6%;
+}
+
+}
+@media screen and (max-width:768px){
+    .brand-logo{
+        margin-left: -2%;
+    }
+.build-container .btn{
+padding:10px 20px;
+font-size: 1.5rem;
+}
+.grow-paragraph{
+    font-size: 1.4rem;
+}
+.seventh-section .build-heading{
+    width: 100%;
+    font-size: 1.6rem;
+}
+.seventh-section .btn{
+    padding: 10px 15px;
+}
+.section-top-desktop-1{
+    width: 100%;
+    height: 103px;
+ }
+ .section-top-desktop-1{
+    width: 100%;
+    height: 103px;
+ }
+ .section-top-desktop-1{
+     margin-top: 10%;
+width: 100%;
+height: 85px;
+    }        
+    .grow-img{
+        margin-top: 5%;
+    }
+.newsletter-paragraph{
+    margin-top: 15%;
+}
+.text-input{
+    width: 60%;
+}
+.suscribe-button{
+    margin-top:2%;
+ margin-left: 10%;
+ font-size: 1rem;
+
+ }
+}
+@media screen and (max-width:767px){
+    .brand-logo{
+        margin-left: -2%;
+    }
+    .second-section{
+        margin-top: 20%;
+    }
+    .try-text{
+        font-size: 1.5rem;
+    }
+    .build-heading{
+        width: 100%;
+        font-size: 4rem;
+        padding-right: 10px;
+   }
+   .community-text{
+       margin: 5%;
+   }
+   .screen-mockups-img{
+       width: 80%;
+   }
+   /* svgs images styling start here */
+   .section-top-desktop-1{
+    background-image: url("../images/bg-section-top-mobile-1.svg");
+   }
+   .section-bottom-desktop-1{
+    background-image: url("../images/bg-section-bottom-mobile-1.svg");
+   }
+   .section-top-desktop-2{
+    background-image: url("../images/bg-section-top-mobile-2.svg");
+   }
+   .section-bottom-desktop-2{
+        background-image: url("../images/bg-section-bottom-mobile-2.svg");
+   }
+   .bg-overlay{
+    background-image: url("../images/bg-footer-top-mobile.svg");
+}
+.section-top-desktop-1, .section-bottom-desktop-1
+,.section-top-desktop-2,.section-bottom-desktop-2{
+ height: 200px;
+ width: 100%;
+ background-repeat: no-repeat;
+ background-size:cover;
+}
+.bg-overlay{
+    margin-top: 10%;
+}
+    /* svgs images styling ends here */ 
+   .growing-content-div{
+       display: flex;
+   }
+   .growing-image-contents{
+       order: -1;
+       width: 100%;
+       margin: auto;
+   }
+   .section-top-desktop-img,.growing-img{
+    margin-left: 10%;
+   }
+   .grow-img{
+    margin-top: 10%;
+   }
+.growing-text-contents{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15%;
+   }
+.grow-paragraph{
+    width: 100%;
+padding-right:0px;
+font-size: 1.6rem;
+
+}
+.footer-container{
+    height: 100%;
+}
+.footer{
+    margin-left: -15%;
+    display:flex;
+}
+.second-footer-content{
+order:-1;
+}
+.first-footer-content{
+    margin-top: 15%;
+    margin-left: 15%;
+}
+.newsletter-paragraph{
+    margin-top: 5%;
+}
+.text-input{
+    width: 100%;
+    height: 50px;
+    border: none;
+
+}
+.suscribe-button{
+    margin-right: 5%;
+    margin-top: 17%;
+    height: 50px;
+    padding:0px 40px;
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width:600px){
+    .brand-logo{
+        margin-left: -4%;
+    }
+ .try-text{
+     padding:3px 2px;
+ }
+ .second-section .build-heading{
+     font-size: 4rem;
+ }
+  .seventh-section{
+    margin-top: 20%;
+ } 
+ .grow-paragraph{
+     font-size: 1.6rem;
+ }
+ .seventh-section .build-heading{
+    font-size: 2rem;
+    width: 100%;
+ }  
+ .section-top-desktop-1, .section-bottom-desktop-1
+,.section-top-desktop-2,.section-bottom-desktop-2{
+ height:200px;
+}
+ .section-bottom-desktop-2{
+    height: 170px;
+ }
+    .bg-overlay{
+        margin-top: 20%;
+        height: 80px;
+    }
+
+}
+@media screen and (max-width:425px){
+    .brand-logo{
+        margin-left: -7%;
+    }
+    .brand-logo{
+        position: absolute;
+        left:-2%;
+        width: 50%;
+    }
+ .try-button{
+     position: absolute;
+     right: 0;
+     top: 65%;
+     padding:5px 10px;
+ }
+ .try-text{
+     padding:3px 2px;
+     font-size: 1.4rem;
+ }
+ .second-section{
+     margin-top: 30%;
+ }
+ .second-section .build-heading{
+     font-size: 3rem;
+ }
+ .build-paragraph{
+     width: 100%;
+     font-size: 1.5rem;
+     margin-top:2rem;
+     margin-bottom:2rem;
+     margin-left: -8%;
+     padding-right: 0px;
+
+ }
+ .community-population{
+     font-size:4rem;
+ }
+ .growing-heading-content{
+    width: 100%;
+ }
+ .grow-heading{
+    width: 100%;
+    font-size:2.5rem;
+ }
+ .grow-paragraph{
+     width: 100%;
+    font-size: 1.8rem;
+    padding-right:0px;
+    margin-left: 1%;
+ }
+ .grow-img{
+     margin-top: 10%;
+ }
+ .section-top-desktop-1, .section-bottom-desktop-1
+,.section-top-desktop-2,.section-bottom-desktop-2{
+ height:130px;
+}
+.seventh-section{
+width: 100%;
+}
+ .seventh-section .build-heading{
+    width: 100%;
+    font-size: 3rem;
+    padding-bottom: 5%;
+}
+.first-footer-content{
+    margin-top: 30%;
+}
+
+.newsletter-paragraph{
+ margin-left:-3%;
+    padding: 10px;
+}
+.suscribe-button{
+    margin-top: 25%;
+    font-size: 1.4rem;
+
+}
+.fab{
+    font-size: 2rem;    
+}
+.bg-overlay{
+    height: 60px;
+}
+}
+
+@media screen and (max-width:375px){
+    .try-button{
+        margin-top: -3%;
+    }
+.build-container .build-heading{
+    width: 100%;
+    font-size: 2.5rem;
+}
+.build-paragraph{
+    width: 100%;
+    font-size: 1.5rem;
+    padding-right:5px;
+    margin-left: -5%;
+}
+.grow-heading{
+    font-size: 2.2rem;
+}
+.grow-paragraph{
+    width: 100%;
+    padding-left:10px;
+    /* padding-right: 50px; */
+    font-size: 1.5rem;
+}
+.suscribe-button{
+    margin-top: 28%;
+}
+.bg-overlay{
+    height: 50px;
+} 
+}
+
+@media screen and (max-width:320px){
+    .brand-logo{
+        margin-left: -20px;
+    }
+    .try-button{
+        font-size: .8rem;
+        margin-top: -5%;
+    }
+    .build-container .build-heading{
+        width: 100%;
+        font-size: 2rem;
+    }
+    .build-paragraph{
+        width: 100%;
+        font-size: 1.5rem;
+        padding-right: 0px;
+        margin-left: -10%;
+    }
+    .grow-heading{
+        font-size: 1.9rem;
+    }
+    .grow-paragraph{
+        width: 100%;
+        font-size: 1.5rem;
+        padding-right: 0px;
+    }
+    .suscribe-button{
+        margin-top: 33%;
+        font-size: 1.5rem;
+        margin-right:20px;
+    }
+
+    }
+
+/* =====================MEDIA QUERY ENDS HERE======================== */
