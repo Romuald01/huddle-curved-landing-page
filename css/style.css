@@ -450,13 +450,16 @@ height: 85px;
     .grow-img{
         margin-top: 5%;
     }
+    .first-footer-content{
+        margin-top: 4%;
+        margin-left: 0;    
+    }
     .footer-brand-logo{
         margin-top: 10%;
         width: 100px;
     }
 .footer-paragraph{
      margin-top: 9% !important;
-     /* margin-left: 10%; */
     }
 .newsletter-paragraph{
     margin-top: 15%;
@@ -466,7 +469,7 @@ height: 85px;
     width: 60%;
 }
 .suscribe-button{
-    margin-top:3%;
+    margin-top:1%;
  margin-left: 10%;
  font-size: 1rem;
  }
@@ -565,7 +568,6 @@ font-size: 1.6rem;
 order:-1;
 }
 
-}
 .newsletter-paragraph{
     margin-top: 5%;
 }
@@ -593,7 +595,6 @@ width: 40%;
  width: 100%;
 display: block;   
 }
-
 
 @media screen and (max-width:600px){
     .brand-logo{
